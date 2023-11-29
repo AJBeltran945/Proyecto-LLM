@@ -2,46 +2,36 @@
     overflow: hidden;
     background-color: #3085C3;
     padding: 20px 10px;
-  }
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+    background-color: #3085C3;
+    padding: 12px;
+    font-size: 18px; 
+    line-height: 25px;
+}
   
-  .header a {
-    float: left;
+.menu a {
     color: black;
     text-align: center;
     padding: 12px;
-    text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
-    border-radius: 4px;
-  }
+    text-decoration: none;
+}
   
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header a:hover {
+.menu a:hover {
     background-color: #F4E869;
     color: black;
-  }
+}
   
-  .header a.active {
-    background-color: #F4E869;
-    color: black;
-  }
-  
-  .menu {
-    float: right;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .header a {
+@media screen and (max-width: 500px) {
+    .menu a {
       float: none;
       display: block;
       text-align: left;
-    }
-    
-    .header-right {
-      float: none;
     }
   }
