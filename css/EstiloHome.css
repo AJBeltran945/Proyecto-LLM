@@ -1,0 +1,32 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+section h1{
+    font-size: 30;
+}
+
+section a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+section img{
+    border-radius: 10px;
+}
+
+.hotel_mv{
+    display: flex;
+    background-color: #5CD2E6;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
