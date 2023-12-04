@@ -6,6 +6,27 @@ header {
     font-weight: bold;
 }
 
+/* Aqui se edita la animacion del logo y el 
+responsiveness del logo y la posicion del logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+}
+@media screen and (max-width: 550px) {
+    .logo_img{
+        width: 300px;
+        height: auto;
+    }
+}
+@keyframes logo {
+    from {top: -400px;}
+    to {top: 0px;}
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -27,4 +48,8 @@ nav a {
 nav a:hover {
     background-color: #F4E869;
     color: black;
+}
+
+footer{
+    background-color: #3085C3;
 }
