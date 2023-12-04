@@ -13,13 +13,13 @@ nav {
     background-color: #3085C3;
     padding: 12px;
     font-size: 18px; 
-    line-height: 25px;
+    line-height: 25px;;
 }
   
 nav a {
     color: black;
     padding: 12px;
-    font-size: 18px; 
+    font-size: 30px; 
     line-height: 25px;
     text-decoration: none;
 }

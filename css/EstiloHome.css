@@ -1,0 +1,113 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+}
+
+@media screen and (max-width: 450px) {
+    .logo_img{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@keyframes logo {
+    from {top: -400px;}
+    to {top: 0px;}
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+section a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+section img{
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .imagen{
+        width: 222px;
+        height: 222px;
+    }
+}
+
+.hotel_mv{
+    display: flex;
+    background-color: #5CD2E6;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+}
+
+@media screen  and (max-width: 800px) {
+    .hotel_mv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hotel_mv{
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hotel_mv{
+        width: 60%; 
+    }
+}
+.imagen_hotel{
+    width: auto;
+}
+
+.iconos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.boton_hotel{
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+@media screen  and (max-width: 1000px) {
+    .imagen_hotel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .imagen_hotel{
+        width: 60%; 
+    }
+}
