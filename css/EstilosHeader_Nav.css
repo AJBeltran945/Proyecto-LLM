@@ -35,8 +35,7 @@ nav {
     padding: 12px;
     font-size: 18px; 
     line-height: 25px;;
-}
-  
+} 
 nav a {
     color: black;
     padding: 12px;
@@ -44,12 +43,24 @@ nav a {
     line-height: 25px;
     text-decoration: none;
 }
-  
 nav a:hover {
     background-color: #F4E869;
     color: black;
 }
+@media screen and (max-width: 550px) {
+    nav a {
+        color: black;
+        padding: 12px;
+        font-size: 18px; 
+        line-height: 25px;
+        text-decoration: none;
+    }
+}
 
 footer{
+    overflow: hidden;
     background-color: #3085C3;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-align: center;
 }
