@@ -1,4 +1,7 @@
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     background-color: #3085C3;
     padding: 20px 10px;
@@ -8,16 +11,13 @@ header {
 
 /* Aqui se edita la animacion del logo y el 
 responsiveness del logo y la posicion del logo */
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header img{
     position: relative;
     animation-name: logo;
     animation-duration: 4s;
 }
 @media screen and (max-width: 550px) {
-    .logo_img{
+    header img{
         width: 300px;
         height: auto;
     }
@@ -60,9 +60,14 @@ nav a:hover {
 }
 
 footer{
+    display: flex;
+
     overflow: hidden;
     background-color: #3085C3;
     padding: 20px 10px;
     font-size: 20px;
-    text-align: center;
+}
+
+footer img{
+    width: 150px;
 }
