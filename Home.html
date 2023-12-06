@@ -3,141 +3,506 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/EstiloHome.css">
     <link rel="stylesheet" href="css/EstilosHeader_Nav.css">
     <link rel="stylesheet" href="css/EstilosBody.css">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <header>
-    <a href="Home.html" class="logo">Aljamiento Beltran</a>
+    <a href="Home.html" class="logo">
+        <img src="IMG_Austin/logo(1).png" class="logo_img">
+    </a>
 </header>
 
 <nav>
     <a href="Home.html">Home</a>
     <a href="#about">About</a>
-    <a href="#categorias">Categorias</a>
+    <a href="categorias.html">Categorias</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <body>
     <!-- hoteles mas vendidos -->
-    <section id="mas vendidos">
+    <section>
         <h1>Hoteles mas Vendidos</h1>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1" width="333" height="333">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
     </section>
-
+    
     <!-- Hoteles mas populares -->
-    <section id="mas populares">
+    <section>
         <h1>Hoteles mas Populares</h1>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1" width="333" height="333">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
 
-        <article>
-            <article>
-                <img src="" alt="Hotel mas vendido 1">
+        <article class="hotel_mv">
+            <!-- Cambiar el imagen a un imagen del hotel -->
+            <article class="imagen_hotel">
+                <a href="#Pagina Hotel">
+                    <img src="IMG_Austin/imagen_ejemplo.webp" alt="Hotel mas vendido 1" width="333" height="333" class="imagen">
+                </a>
             </article>
             
-            <article>
-                <a href="#Pagina Hotel">Nombre hotel mas vendido</a>
-                <p></p>
-            </article>    
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2 class="Nom_Hotel">Nombre del Hotel mas vendido</h2>
+                <article class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur sodales nec neque at volutpat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Integer vitae elementum 
+                        purus. Morbi leo libero, commodo ac dui eget, consectetur eleifend 
+                        purus. Aliquam at mi condimentum, consequat purus et, placerat 
+                        tortor. Aliquam erat volutpat. Donec pellentesque convallis tincidunt.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+    
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="#verHotel" class="boton_hotel">Ver Hotel</a>
+            </article>
         </article>
     </section>
 </body>
+
+<footer>
+    <p>
+        Original work copyright disclaimer: This disclaimer can be used on blogs, 
+        websites, images, videos, music, and even social media to establish your 
+        ownership over original content. Having this statement helps protect your 
+        work against theft.
+    </p>
+</footer>
 </html>
