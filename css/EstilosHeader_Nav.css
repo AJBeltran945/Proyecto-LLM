@@ -61,13 +61,39 @@ nav a:hover {
 
 footer{
     display: flex;
-
+    justify-content: space-between;
     overflow: hidden;
     background-color: #3085C3;
     padding: 20px 10px;
-    font-size: 20px;
+    font-size: 15px;
+}
+footer img{
+    padding-left: 10px;
+    width: 100px;
 }
 
-footer img{
-    width: 150px;
+footer i{
+    color: #F4E869;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+footer article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boton a:hover{
+    background-color: #F4E869;
+    border-radius: 10px;
+    color: black;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    
 }
