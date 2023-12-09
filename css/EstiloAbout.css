@@ -1,10 +1,11 @@
-section{
+section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;   
+  flex-direction: column;
 }
-h1{
+
+h1 {
   font-size: 45px;
   margin-bottom: 20px;
   background-color: #F4E869;
@@ -14,53 +15,61 @@ h1{
   padding-bottom: 10px;
   border-radius: 10px;
 }
-@media screen  and (max-width: 800px) {
-  h1{
-      font-size: 35px;
-      margin-bottom: 10px;
-      background-color: #F4E869;
-      padding-left: 100%;
-      padding-right: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      margin-top: 10px;
-      text-align: center;
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    background-color: #F4E869;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
   }
 }
-#texto{
+
+#texto {
   width: 60%;
   background-color: #5CD2E6;
   padding: 10px;
   border-radius: 10px;
 }
+
 @media screen and (max-width: 900px) {
-  #texto{
+  #texto {
     width: 80%;
     background-color: #5CD2E6;
     padding: 10px;
     border-radius: 10px;
   }
 }
-p{
+
+p {
   font-size: 18px;
   text-align: justify;
 }
-img{
+
+img {
   border-radius: 10px;
 }
-@media screen  and (max-width: 800px) {
-  img{
+
+@media screen and (max-width: 800px) {
+  img {
     width: 310px;
     height: auto;
   }
 }
+
 #respond {
-    width: 60%;
-    margin: 10px;
-    background-color: #5CD2E6;
-    padding: 10px;
-    border-radius: 10px;
+  width: 60%;
+  margin: 10px;
+  background-color: #5CD2E6;
+  padding: 10px;
+  border-radius: 10px;
 }
+
 @media screen and (max-width: 900px) {
   #respond {
     width: 80%;
@@ -68,16 +77,16 @@ img{
     background-color: #5CD2E6;
     padding: 10px;
     border-radius: 10px;
+  }
 }
-}
-  
+
 #respond input[type='text'],
 #respond input[type='email'],
 #respond textarea {
   margin-bottom: 10px;
   display: block;
   width: 100%;
-  
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -85,6 +94,6 @@ img{
   -ms-border-radius: 5px;
   -khtml-border-radius: 5px;
   border-radius: 5px;
-  
+
   line-height: 1.4em;
 }
