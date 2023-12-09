@@ -97,7 +97,6 @@ iconos y su responsivness */
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
-        width: 80%;
     }
 }
 
