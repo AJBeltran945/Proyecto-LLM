@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/EstiloAbout.css">
-        <link rel="stylesheet" href="css/EstilosHeader_Nav.css">
-        <link rel="stylesheet" href="css/EstilosBody.css">
-        <title>Sobre nosotros</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/EstiloAbout.css">
+    <link rel="stylesheet" href="css/EstilosHeader_Nav.css">
+    <link rel="stylesheet" href="css/EstilosBody.css">
+    <title>Sobre nosotros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+    <link rel="shortcut icon" href="IMG_Austin/logo(1).png">
+</head>
+
+<header>
+    <a href="Home.html" class="logo">
+        <img src="IMG_Austin/logo(1).png" class="logo_img">
+    </a>
+</header>
 
 <nav>
     <a href="Home.html">Home</a>
     <a href="#about">Sobre nosotros</a>
     <a href="categorias.html">Categorias</a>
-</nav>  
-<body>
-    <h1>Sobre nosotros</h1>
-    <article id="respond">
+</nav>
 
-        <h3>Leave a Comment</h3>
-      
-        <form action="post_comment.php" method="post" id="commentform">
-      
-          <label for="comment_author" class="required">Your name</label>
-          <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
-      
-          <label for="email" class="required">Your email;</label>
-          <input type="email" name="email" id="email" value="" tabindex="2" required="required">
-      
-          <label for="comment" class="required">Your message</label>
-          <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
-      
-          <!-- comment_post_ID value hard-coded as 1 -->
-          <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-          <input name="submit" type="submit" value="Submit comment" />
-      
-        </form>
-      
-    </article>
+<body>
+    <a name="arriba"></a>
+    <section>
+        <h1>Sobre nosotros</h1>
+        <article id="texto">
+            <p>
+                ¡Hola viajeros! Somos Austin Beltran y Santiago Facius,
+                los creadores de este rincón virtual diseñado para simplificar tu
+                búsqueda de alojamiento en la hermosa isla de Mallorca.
+            </p>
+            <p>
+                Esta proporcionado por nuestra empresa Alojamiento Beltran, aqui
+                pondremos un poco de nuestra informacion sobre nuestra empresa y un
+                poco de que es esta pagina web, si teenis alguna duda sobre nosotros
+                o sobre un comentario sobre la pagina no tengas miedo a ir abajo y dejha un comentario.
+            </p>
+            <p>
+                Maecenas massa lacus, facilisis quis mattis et, finibus non ante. Nunc mollis a
+                lorem sit amet aliquam. In et massa nec velit finibus malesuada. Nullam pretium
+                lacus in ex interdum pretium. Fusce efficitur pulvinar turpis, ut vestibulum nibh
+                sollicitudin non. Maecenas elit erat, luctus in metus vitae, commodo fermentum lorem.
+                Proin porta orci eu fringilla egestas. Vestibulum id mollis felis, sit amet feugiat metus.
+                Nulla molestie ultrices urna a volutpat. Etiam in nibh non felis mattis vehicula id nec sapien.
+                Vestibulum odio sapien, elementum eget lacus in, eleifend sodales dui. Integer viverra
+                dui tristique dui interdum venenatis. Donec dignissim, tellus accumsan mattis finibus,
+                mi ex ornare mauris, nec malesuada erat quam sit amet arcu.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+                arcu eget sem euismod laoreet a ut nibh. Maecenas tempus luctus orci,
+                in iaculis felis mollis nec. Curabitur tortor mi, commodo ac mauris vel,
+                luctus viverra nisi. Sed vitae ullamcorper dolor, ac semper enim.
+                Integer ex quam, placerat eu lacus sed, tincidunt interdum eros. Aenean
+                maximus mollis erat, ut iaculis risus lobortis quis. Morbi quis ornare
+                dolor. Cras purus dolor, imperdiet a quam ut, dapibus scelerisque metus.
+            </p>
+            <img src="img/About/SobreNosotros.jpg" alt="Sobre nosotros imagen">
+        </article>
+    </section>
+    <section>
+        <h1>Deja un Comentario</h1>
+        <article id="respond">
+
+            <form action="post_comment.php" method="post" id="commentform">
+
+                <label for="comment_author" class="required">Tu nombre:</label>
+                <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+                <label for="email" class="required">Tu email:</label>
+                <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+                <label for="comment" class="required">Tu comentario:</label>
+                <textarea name="comment" id="comment" rows="10" tabindex="4" required="required"></textarea>
+
+                <!-- comment_post_ID value hard-coded as 1 -->
+                <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+                <input name="submit" type="submit" value="Entregar comentario" />
+
+            </form>
+
+        </article>
+    </section>
 </body>
 <footer>
     <article>
@@ -65,4 +112,5 @@
         <a href="#arriba">Vamos arriba</a>
     </article>
 </footer>
+
 </html>
