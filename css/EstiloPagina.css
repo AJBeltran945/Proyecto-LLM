@@ -140,3 +140,69 @@ iconos y su responsivness */
     padding-right: 10%;
     border-radius: 10px;
 }
+/* zona de comentrios css */
+.comment-section {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-form input, #comment-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comment-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* zona del button de notas */ 
+
+#note-button {
+    padding: 10px 20px;
+    background-color: #008000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* comentarios abajo de la nota */
+
+.small-comment-section {
+    width: 200px; 
+    margin-top: 20px;
+}
+
+#small-comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#small-comment-form textarea {
+    height: 100px; 
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#small-comment-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
