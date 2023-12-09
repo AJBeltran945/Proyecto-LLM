@@ -11,20 +11,27 @@ header {
 
 /* Aqui se edita la animacion del logo y el 
 responsiveness del logo y la posicion del logo */
-header img{
+header img {
     position: relative;
     animation-name: logo;
     animation-duration: 4s;
 }
+
 @media screen and (max-width: 550px) {
-    header img{
+    header img {
         width: 300px;
         height: auto;
     }
 }
+
 @keyframes logo {
-    from {top: -400px;}
-    to {top: 0px;}
+    from {
+        top: -400px;
+    }
+
+    to {
+        top: 0px;
+    }
 }
 
 nav {
@@ -33,33 +40,36 @@ nav {
     align-items: center;
     background-color: #3085C3;
     padding: 12px;
-    font-size: 18px; 
-    line-height: 25px;;
+    font-size: 18px;
+    line-height: 25px;
+    ;
 }
-  
+
 nav a {
     color: black;
     padding: 12px;
-    font-size: 30px; 
+    font-size: 30px;
     line-height: 25px;
     text-decoration: none;
 }
+
 @media screen and (max-width: 550px) {
     nav a {
         color: black;
         padding: 12px;
-        font-size: 20px; 
+        font-size: 20px;
         line-height: 25px;
         text-decoration: none;
     }
 }
+
 nav a:hover {
     background-color: #F4E869;
     border-radius: 10px;
     color: black;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -67,33 +77,69 @@ footer{
     padding: 20px 10px;
     font-size: 15px;
 }
-footer img{
+
+footer img {
     padding-left: 10px;
     width: 100px;
 }
 
-footer i{
+footer i {
     color: #F4E869;
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
 }
-footer article{
+
+footer article {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.boton a:hover{
+
+.boton a:hover {
     background-color: #F4E869;
     border-radius: 10px;
     color: black;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 10px;
-    
+
+}
+
+@media screen and (max-width: 550px) {
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    footer p {
+        text-align: center;
+    }
 }

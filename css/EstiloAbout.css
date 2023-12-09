@@ -1,24 +1,99 @@
-#respond {
-    margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 40px;
-  }
-  
-  #respond input[type='text'],
-  #respond input[type='email'],
-  #respond textarea {
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  background-color: #F4E869;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
     margin-bottom: 10px;
-    display: block;
-    width: 100%;
-  
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-  
-    line-height: 1.4em;
+    background-color: #F4E869;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
   }
+}
+
+#texto {
+  width: 60%;
+  background-color: #5CD2E6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  #texto {
+    width: 80%;
+    background-color: #5CD2E6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 310px;
+    height: auto;
+  }
+}
+
+#respond {
+  width: 60%;
+  margin: 10px;
+  background-color: #5CD2E6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  #respond {
+    width: 80%;
+    margin: 10px;
+    background-color: #5CD2E6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
