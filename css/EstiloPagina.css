@@ -1,96 +1,118 @@
-/* Aqui edita los hoteles que estan en display 
-de los mas vendidos y de los mas populares
-que esten en columnta y centrado */
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;   
-}
-/* Aqui editamos los enlaces dentro de los 
-seciones */
-section a{
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px;
-    color: black;
-}
-/* Aqui se editan las imagenes dentro de los secciones
-para que tengan unos bordes redondos */
-section img{
-    border-radius: 10px;
+/* Galeria de imagenes */
+#galeria div {
+    border: 1px solid #ccc;
 }
 
-h1{
+#galeria div:hover {
+    border: 1px solid #777;
+}
+
+#galeria div img {
+    width: 100%;
+    height: auto;
+}
+
+#galeria div p {
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+#galeria * {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+#galeria article {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    #galeria article{
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #galeria article {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* estilos de header */
+
+h1 {
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
     background-color: #F4E869;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px;
+    text-align: center;
 }
-@media screen  and (max-width: 800px) {
-    h1{
+
+@media screen and (max-width: 800px) {
+    h1 {
         font-size: 35px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
+        margin-top: 0px;
         background-color: #F4E869;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
         padding-top: 10px;
         padding-bottom: 10px;
-        margin-top: 0;
+        text-align: center;
     }
+}
+/* Contenido HOtel */
+
+section{
+    text-align: center;
 }
 /* editar la caja onde esta los imagenes del hotel,
 iconos y su responsivness */
-.hotel_mv{
+.hotel_mv {
     display: flex;
     background-color: #5CD2E6;
     justify-content: space-around;
     margin-bottom: 20px;
-    border-radius: 20px;
     padding: 20px;
-    width: 95%;
 }
-@media screen  and (max-width: 800px) {
-    .hotel_mv{
+
+@media screen and (max-width: 800px) {
+    .hotel_mv {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 90%; 
+        justify-content: space-around;
+        width: 80%;
     }
 }
-@media screen and (max-width: 900px) {
-    .hotel_mv{
-        width: 90%; 
-    }
-}
-@media screen and (max-width: 1200px) {
-    .hotel_mv{
-        width: 80%; 
-    }
-}
-/* responsiveness del imagen detron de la caja de hoteles */
-@media screen and (max-width: 400px) {
-    .imagen{
-        width: 222px;
-        height: auto;
-    }
-}
+
 /* estilo del descripcion y iconos del hotel */
-.descripcion{
+.descripcion {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
 }
+
 @media screen and (max-width: 900px) {
-    .descripcion{
+    .descripcion {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -99,7 +121,8 @@ iconos y su responsivness */
         width: 90%;
     }
 }
-.Nom_Hotel{
+
+h2 {
     text-decoration: solid;
     font-size: 25px;
     margin: 0;
@@ -110,27 +133,34 @@ iconos y su responsivness */
     padding-right: 10%;
     border-radius: 10px;
 }
-.text{
+
+p {
     text-align: justify;
 }
-.iconos{
+
+.iconos {
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
     font-size: 20px;
     float: left;
 }
-.star{
+
+.star {
     margin: 15px;
 }
-.habitacion{
+
+.habitacion {
     margin: 15px;
 }
-.precio{
+
+.precio {
     margin: 15px;
 }
-.boton_hotel{
+
+.descripcion a {
     font-weight: bold;
+    text-decoration: none;
+    color: black;
     font-size: 25px;
     margin-top: 0;
     background-color: #F4E869;
@@ -140,38 +170,13 @@ iconos y su responsivness */
     padding-right: 10%;
     border-radius: 10px;
 }
-/* zona de comentrios css */
-.comment-section {
-    width: 100%;
-    margin-top: 50px;
-}
 
-#comment-form {
-    display: flex;
-    flex-direction: column;
-}
-
-#comment-form input, #comment-form textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#comment-form button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* zona del button de notas */ 
+/* zona del button de notas */
 
 #note-button {
+    margin-top: 10px;
     padding: 10px 20px;
-    background-color: #008000; 
+    background-color: #008000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -181,7 +186,7 @@ iconos y su responsivness */
 /* comentarios abajo de la nota */
 
 .small-comment-section {
-    width: 200px; 
+    width: 200px;
     margin-top: 20px;
 }
 
@@ -191,7 +196,7 @@ iconos y su responsivness */
 }
 
 #small-comment-form textarea {
-    height: 100px; 
+    height: 100px;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -205,4 +210,35 @@ iconos y su responsivness */
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+/* zona de comentrios css */
+.comment-section {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-form input,
+#comment-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comment-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
