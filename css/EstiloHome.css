@@ -36,11 +36,12 @@ h1{
         font-size: 35px;
         margin-bottom: 20px;
         background-color: #F4E869;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 100%;
+        padding-right: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
-        margin-top: 0;
+        margin-top: 10px;
+        text-align: center;
     }
 }
 /* editar la caja onde esta los imagenes del hotel,
@@ -60,16 +61,6 @@ iconos y su responsivness */
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 90%; 
-    }
-}
-@media screen and (max-width: 900px) {
-    .hotel_mv{
-        width: 90%; 
-    }
-}
-@media screen and (max-width: 1200px) {
-    .hotel_mv{
         width: 80%; 
     }
 }
