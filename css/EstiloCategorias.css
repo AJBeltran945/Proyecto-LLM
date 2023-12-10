@@ -83,7 +83,7 @@ iconos y su responsivness */
 /* estilo del descripcion y iconos del hotel */
 .descripcion{
     display: flex;
-    justify-content: ;
+    /* justify-content: ; */
     align-items: center;
     flex-direction: column;
 ;
