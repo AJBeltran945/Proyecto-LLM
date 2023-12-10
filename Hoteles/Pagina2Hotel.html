@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/EstiloPaginaAustin.css">
+    <link rel="stylesheet" href="../css/EstiloPagina.css">
     <link rel="stylesheet" href="../css/EstilosHeader_Nav.css">
     <link rel="stylesheet" href="../css/EstilosBody.css">
     <title>Iberostar Cristina</title>
@@ -26,7 +26,7 @@
 </nav>
 
 <body>
-    <section id="galeria">
+    <article id="galeria">
         <h1>S’Olivaret</h1>
         <article>
             <div>
@@ -60,11 +60,84 @@
                 <p>descripcion here</p>
             </div>
         </article>
-    </section>
+    </article>
+
     <section>
-        <article>
+        <article class="hotel_mv">
+            <!-- poner el nombre del hotel -->
+            <article class="descripcion">
+                <h2>Familiar</h2>
+                <article>
+                    <p>
+                        Iberostar Cristina de 4 estrellas es ideal tanto para viajeros de negocios como de
+                        vacaciones en
+                        Mallorca.
+                        Los huéspedes hallarán muy confortable su estancia en este establecimmiento, que dispone de
+                        una
+                        amplia gama de instalaciones.
+                        El personal de Iberostar Cristina está especialmente preparado para acoger a los huéspedes y
+                        orientarlos.
+                        Las habitaciones están diseñadas para proporcionar el nivel óptimo de comodidad,
+                        con decoración acogedora y diferentes servicios como televisión de pantalla plana, copa de
+                        bienvenida, sofá,
+                        salón independiente, WiFi gratis. Disfruta de las instalaciones del alojamiento, que
+                        incluyen
+                        tablero de dardos, gimnasio, sauna,
+                        piscina al aire libre, piscina cubierta. Iberostar Cristina combina una cálida hospitalidad
+                        con
+                        un
+                        ambiente agradable que harán inolvidable tu
+                        estancia en Mallorca.
+                    </p>
+                </article>
+                <article class="iconos">
+                    <!-- decir numeors de estrella habitaciones y precio -->
+                    <article class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </article>
+                    <article class="habitacion">
+                        <i class="fa-solid fa-bed"></i>
+                        <i class="fa-solid fa-bed"></i>
+                    </article>
+                    <article class="precio">
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </article>
+                </article>
+                <!-- poner el enlace de la pagina al boton creado -->
+                <a href="https://www.hotelscombined.es/hotels/Iberostar-Cristina,Palma-p27079-h84134-details/2023-12-11/2023-12-18/2adults/2children-10-10?psid=VTHkI3--Qa&pm=totaltaxes"
+                    class="boton_hotel">Ver Hotel</a>
+            </article>
+
+            <!-- poner un boton para poener notas ir a css y cambiar a rojo si es menor que 5-->
+            <div class="note-section">
+                <button id="note-button">Note del hotel 8,9</button>
+
+                <div class="small-comment-section">
+                    <form id="small-comment-form">
+                        <textarea id="small-comment" placeholder="Your comment"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <!--comentarios abajo de la nota-->
 
         </article>
+    </section>
+    <h1> Contactanos</h1>
+    <section>
+        <!--zona de comentarios-->
+    <div class="comment-section">
+        <form id="comment-form">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="comment" placeholder="Comment"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     </section>
 </body>
 
